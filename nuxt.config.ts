@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Bay Clock 3',
+      title: 'Anno 1800 Calculator',
       htmlAttrs: {
         lang: 'en',
       },
@@ -32,9 +32,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Inter': true,
-      'Patrick Hand': true,
-      'Nunito': true,
+      Ubuntu: true,
     },
   },
   gtag: {
